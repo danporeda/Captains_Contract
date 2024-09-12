@@ -12,3 +12,9 @@ I created this app to manage my hockey team on-chain. It is currently functional
 
 ## Features To Come
 - **payment transactions**: Currently there are no payment transactions in the contract as a matter of practicality; nobody on my team used crypto payments, and the league only accepted USD when I deployed the first contract. Future versions will enable team fees to be paid in USDC to the contract, retrievable to the owner or reditributed to external addresses by the owner.
+
+
+## Usage
+1. Deploy the contract to you chain of choice. Since Version 1.0.0 only has state mutations, deploy it to a testnet.
+2. Update the contract and owner addresses in the app file: tabarnak_ledger.py
+3. activate your python environment and run command: `streamlit run tabarnak_ledger.py`
