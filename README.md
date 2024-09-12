@@ -10,7 +10,7 @@ I created this app to manage my hockey team on-chain. It is currently functional
 - **Attendance**: `game_played` applies to part-timers, and `games-missed` to full-timers.
 
 
-## Features To Come
+### Features To Come
 - **payment transactions**: Currently there are no payment transactions in the contract as a matter of practicality; nobody on my team used crypto payments, and the league only accepted USD when I deployed the first contract. Future versions will enable team fees to be paid in USDC to the contract, retrievable to the owner or reditributed to external addresses by the owner.
 
 
